@@ -15,13 +15,15 @@ The demo has three main sections:
 
 ## Section 1: CDSW model training using a custom docker image with Jupyter
 
+Make sure you create a project using this repository in CDSW.
+
 In CDSW config, use the docker hub image `paulvid/ai-to-edge:dev` as your default engine:
 ![Custom Engine](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/CDSW_ENGINE.png)
 
-After a session is launched, run the following command: 
+After a session is launched, the following command should run (from the .bashrc file): 
 `!jupyter notebook --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token=`
 
-You should then see the Jupyter Home link in the "nine dots" box:
+Therefore, you should then see the Jupyter Home link in the "nine dots" box:
 ![9 dots](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/9_DOTS.png)
 
 # Author
