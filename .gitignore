@@ -1,10 +1,10 @@
 NOTEBOOKS/.DS_Store
 ./.DS_Store
 *.DS_Store
-.cache/*
-.local/*
-.pip/*
-.jupyter/*
-.ipython/*
+*.cache/*
+*.local/*
+*.pip/*
+*.jupyter/*
+*.ipython/*
 NOTEBOOKS/.ipynb_checkpoints/*
-.viminfo*
+*.viminfo*
