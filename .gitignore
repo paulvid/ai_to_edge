@@ -11,3 +11,4 @@ NOTEBOOKS/.ipynb_checkpoints/*
 NOTEBOOKS/input/train.csv
 NOTEBOOKS/input/test.csv
 *.keras/*
+.bash_history
