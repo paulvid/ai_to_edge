@@ -21,21 +21,24 @@
 # Registers:
 
 # File marks:
-'0  9  0  ~/.gitignore
-'1  5  7  ~/.gitignore
+'0  10  8  ~/.gitignore
+'1  9  0  ~/.gitignore
+'2  5  7  ~/.gitignore
 
 # Jumplist (newest first):
--'  9  0  ~/.gitignore
+-'  10  8  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  9  0  ~/.gitignore
 -'  5  7  ~/.gitignore
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	9	0
-	^	9	0
-	.	8	10
+	"	10	8
+	^	10	9
+	.	10	8
 	+	4	8
 	+	7	9
 	+	5	7
 	+	8	10
+	+	10	8
