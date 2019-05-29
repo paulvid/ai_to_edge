@@ -6,7 +6,7 @@ Detailed overview can be found in this article: *to be written*
 
 ## Demo Overview
 
-The demo leverages multiple components of the Cloudera stack to train a Deep Neural Network model (leveraging Keras) on the [http://yann.lecun.com/exdb/mnist/](MNIST database), based on this kaggle following [https://www.kaggle.com/poonaml/deep-neural-network-keras-way/data](Kaggle article) and publish it to a minifi agent running on the edge.
+The demo leverages multiple components of the Cloudera stack to train a Deep Neural Network model (leveraging Keras) on the [MNIST database](http://yann.lecun.com/exdb/mnist/), based on this kaggle following [Kaggle article](https://www.kaggle.com/poonaml/deep-neural-network-keras-way/data) and publish it to a minifi agent running on the edge.
 
 The demo has three main sections:
 - Section 1: CDSW model training using a custom docker image with Jupyter
@@ -16,12 +16,13 @@ The demo has three main sections:
 ## Section 1: CDSW model training using a custom docker image with Jupyter
 
 In CDSW config, use the docker hub image `paulvid/ai-to-edge:dev` as your default engine:
+![Custom Engine](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/CDSW_ENGINE.png)
 
 After a session is launched, run the following command in the session terminal: 
 `jupyter notebook --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token=`
 
 You should then see the Jupyter Home link in the "nine dots" box:
-
+![9 dots](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/9_DOTS.png)
 
 # Author
 
