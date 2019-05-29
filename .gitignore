@@ -8,3 +8,5 @@ NOTEBOOKS/.DS_Store
 *.ipython/*
 NOTEBOOKS/.ipynb_checkpoints/*
 *.viminfo*
+./input/train.csv
+./input/test.csv
