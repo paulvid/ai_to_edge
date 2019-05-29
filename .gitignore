@@ -10,4 +10,4 @@ NOTEBOOKS/.ipynb_checkpoints/*
 *.viminfo*
 NOTEBOOKS/input/train.csv
 NOTEBOOKS/input/test.csv
-*.keras*
+*.keras/*
