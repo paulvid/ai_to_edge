@@ -18,8 +18,8 @@ The demo has three main sections:
 In CDSW config, use the docker hub image `paulvid/ai-to-edge:dev` as your default engine:
 ![Custom Engine](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/CDSW_ENGINE.png)
 
-After a session is launched, run the following command in the session terminal: 
-`jupyter notebook --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token=`
+After a session is launched, run the following command: 
+`!jupyter notebook --no-browser --ip=0.0.0.0 --port=8080 --NotebookApp.token=`
 
 You should then see the Jupyter Home link in the "nine dots" box:
 ![9 dots](https://github.com/paulvid/ai_to_edge/blob/master/ASSETS/9_DOTS.png)
