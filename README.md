@@ -1,7 +1,7 @@
 # Cloudera AI to Edge Demo
 
 This repository contains files related to Cloudera AI to Edge demo.
-Detailed overview can be found in this article: *to be written*
+Detailed overview can be found in this [article](https://community.hortonworks.com/articles/247385/ai-to-edge-ml-operationalization-using-cloudera.html)
 
 
 ## Demo Overview
@@ -11,7 +11,7 @@ The demo leverages multiple components of the Cloudera stack to train a Deep Neu
 The demo has three main sections:
 - Section 1: CDSW model training using a custom docker image with Jupyter and save it using [ONNX](https://onnx.ai/) (Open Neural Network Exchange)
 - Section 2: Nifi flow creation to parse new images and run the model
-- Section 3: Flow deployment to Minifi using EFM
+- Section 3: Flow deployment to Minifi using CEM
 
 ## Section 1: CDSW model training using a custom docker image with Jupyter
 
