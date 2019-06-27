@@ -2,7 +2,7 @@
 <template encoding-version="1.2">
     <description></description>
     <groupId>89a3c0a1-016b-1000-740b-e39d2ee887de</groupId>
-    <name>AITOEDGEFLOW</name>
+    <name>AI_TO_EDGE_FLOW</name>
     <snippet>
         <connections>
             <id>1d82acbd-dd8f-32fc-0000-000000000000</id>
@@ -204,12 +204,80 @@
             </source>
             <zIndex>0</zIndex>
         </connections>
+        <labels>
+            <id>107ad9c5-9560-3c5c-0000-000000000000</id>
+            <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.4778022766113281</y>
+            </position>
+            <height>461.0207214355469</height>
+            <label>1. Listen to folder for new PNGs</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>575.5388641357422</width>
+        </labels>
+        <labels>
+            <id>3d445f48-5e8c-36e9-0000-000000000000</id>
+            <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
+            <position>
+                <x>590.3314819335938</x>
+                <y>0.0</y>
+            </position>
+            <height>461.0207214355469</height>
+            <label>4. Execute Model</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>575.5388641357422</width>
+        </labels>
+        <labels>
+            <id>559bdf03-70d8-3563-0000-000000000000</id>
+            <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.2745361328125</x>
+                <y>488.75554275512695</y>
+            </position>
+            <height>461.0207214355469</height>
+            <label>2. Resize Image / Change filename</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>575.5388641357422</width>
+        </labels>
+        <labels>
+            <id>a97eadf0-1799-3051-0000-000000000000</id>
+            <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
+            <position>
+                <x>592.6596069335938</x>
+                <y>489.0300483703613</y>
+            </position>
+            <height>461.0207214355469</height>
+            <label>3. Convert Image to CSV</label>
+            <style>
+                <entry>
+                    <key>font-size</key>
+                    <value>18px</value>
+                </entry>
+            </style>
+            <width>575.5388641357422</width>
+        </labels>
         <processors>
             <id>46107300-87de-3c9c-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>550.5791625976562</x>
-                <y>12.174624917155825</y>
+                <x>708.4313662843183</x>
+                <y>266.8390696594547</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -304,8 +372,8 @@
             <id>56eb6afd-fb81-328a-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>1158.9303005296658</x>
-                <y>413.55690202448164</y>
+                <x>1380.6621751429186</x>
+                <y>62.28540125523239</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -370,8 +438,8 @@
             <id>63d568c5-3293-305f-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>1174.341610295256</x>
-                <y>16.957043980198875</y>
+                <x>708.4313662843183</x>
+                <y>57.76223598285395</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -484,8 +552,8 @@
             <id>63ec2c8c-1ff7-3ef9-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>536.9183349609375</x>
-                <y>686.1117696105553</y>
+                <x>708.4313662843183</x>
+                <y>773.6327749721959</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -601,8 +669,8 @@
             <id>a12417f0-97db-39f2-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>6.600898282179514</x>
-                <y>469.1204126739269</y>
+                <x>117.86799389842741</x>
+                <y>537.3803604678699</y>
             </position>
             <bundle>
                 <artifact>nifi-media-nar</artifact>
@@ -673,8 +741,8 @@
             <id>d3825e11-3d58-3e06-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>0.0</x>
-                <y>680.8708357783619</y>
+                <x>117.86799389842741</x>
+                <y>773.6327749721959</y>
             </position>
             <bundle>
                 <artifact>nifi-update-attribute-nar</artifact>
@@ -769,8 +837,8 @@
             <id>de50e810-69f8-38c7-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>20.00718577493899</x>
-                <y>0.0</y>
+                <x>117.86799389842741</x>
+                <y>57.76223598285395</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1014,8 +1082,8 @@
             <id>e9752ca7-7840-3e78-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>540.4737514085373</x>
-                <y>348.9465249524889</y>
+                <x>708.4313662843183</x>
+                <y>537.3803604678699</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1128,8 +1196,8 @@
             <id>f9241511-52dd-3a46-0000-000000000000</id>
             <parentGroupId>fe12421a-d254-3fab-0000-000000000000</parentGroupId>
             <position>
-                <x>14.590284524402705</x>
-                <y>251.7388485880283</y>
+                <x>117.86799389842741</x>
+                <y>266.8390696594547</y>
             </position>
             <bundle>
                 <artifact>nifi-standard-nar</artifact>
@@ -1234,5 +1302,5 @@
             <type>org.apache.nifi.processors.standard.FetchFile</type>
         </processors>
     </snippet>
-    <timestamp>06/27/2019 09:42:17 EDT</timestamp>
+    <timestamp>06/27/2019 09:48:24 EDT</timestamp>
 </template>
