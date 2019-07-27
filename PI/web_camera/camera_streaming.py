@@ -25,7 +25,7 @@ PAGE="""\
     <script>
         function goPython(){
             $.ajax({
-              url: "./camera_capture.py",
+              url: "/capture",
              context: document.body
             }).done(function() {
              alert('finished python script');;
@@ -68,6 +68,10 @@ class StreamingHandler(server.BaseHTTPRequestHandler):
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
+        elif self.path == '/capture':
+            self.send_response(200)
+            try:
+                camera.capture('/home/pi/image.jpg')
         elif self.path == '/stream.mjpg':
             self.send_response(200)
             self.send_header('Age', 0)
