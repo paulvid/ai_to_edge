@@ -25,7 +25,7 @@ PAGE="""\
     <script>
         function goPython(){
             $.ajax({
-              url: "camera_capture.py",
+              url: "./camera_capture.py",
              context: document.body
             }).done(function() {
              alert('finished python script');;
