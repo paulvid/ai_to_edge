@@ -70,8 +70,8 @@ class StreamingHandler(server.BaseHTTPRequestHandler):
             self.wfile.write(content)
         elif self.path == '/capture':
             self.send_response(200)
-            try:
-                camera.capture('/home/pi/image.jpg')
+            self.send_header('Location', '/index.html')
+            camera.capture('/home/pi/image.jpg')
         elif self.path == '/stream.mjpg':
             self.send_response(200)
             self.send_header('Age', 0)
