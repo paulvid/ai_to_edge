@@ -71,7 +71,7 @@ class StreamingHandler(server.BaseHTTPRequestHandler):
         elif self.path == '/capture':
             self.send_response(200)
             self.send_header('Location', '/index.html')
-            camera.capture('/home/pi/image.jpg')
+            camera.capture('/home/pi/projects/ai_to_edge/NIFI/png/original/image.jpg')
         elif self.path == '/stream.mjpg':
             self.send_response(200)
             self.send_header('Age', 0)
