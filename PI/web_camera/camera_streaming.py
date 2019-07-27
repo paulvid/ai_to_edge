@@ -17,7 +17,8 @@ PAGE="""\
 <body>
 <center><h1>AI to EDGE - ML Operationalization using Cloudera</h1></center>
 <center><img src="stream.mjpg" width="640" height="480"></center>
-<input type="button" id='script' name="scriptbutton" value=" Run Script " onclick="goPython()">
+<center>
+<input type="button" id='script' name="scriptbutton" value=" Capture Photo " onclick="goPython()">
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -31,6 +32,8 @@ PAGE="""\
             });
         }
     </script>
+
+</center>
 </body>
 </html>
 """
