@@ -504,7 +504,7 @@
                     </entry>
                     <entry>
                         <key>Command Path</key>
-                        <value>/Users/pvidal/Documents/AI_TO_EDGE/NIFI/runModel.sh</value>
+                        <value>${root_folder}NIFI/runModel.sh</value>
                     </entry>
                     <entry>
                         <key>Ignore STDIN</key>
@@ -1302,5 +1302,5 @@
             <type>org.apache.nifi.processors.standard.FetchFile</type>
         </processors>
     </snippet>
-    <timestamp>06/27/2019 09:48:24 EDT</timestamp>
+    <timestamp>06/27/2019 10:38:09 EDT</timestamp>
 </template>

@@ -6,7 +6,6 @@ import numpy
 import pandas as pd
 import shutil
 import sys
-from io import StringIO
 
 test=pd.read_csv(sys.argv[1])
 
