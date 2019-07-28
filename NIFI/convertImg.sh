@@ -21,7 +21,9 @@ start_time = time.time()
 
 
 img_name = sys.argv[1]
+
 img = Image.open(img_name)
+out = img.resize((28, 28))
 img = img.convert('LA')
 
 rawData = img.load()
